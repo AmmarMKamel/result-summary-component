@@ -1,7 +1,7 @@
 const imgElements = document.querySelectorAll("img");
 const spanElements = document.querySelectorAll("#summary span");
 
-fetch("./../data.json")
+fetch("./results-summary-component/data.json")
   .then((response) => response.json())
   .then((data) => {
     for (let i = 0; i < 4; i++) {
