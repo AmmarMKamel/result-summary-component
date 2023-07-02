@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("../assets/fonts/static/HankenGrotesk-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("../assets/fonts/static/HankenGrotesk-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("../assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+    font-weight: 800;
+}
 
 html {
     font-size: 16px;
@@ -6,7 +22,7 @@ html {
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -60,7 +76,7 @@ main {
 }
 
 #summary {
-    padding: 10px 30px;
+    padding: 10px 30px 20px;
 }
 
 #summary h3 {
@@ -138,6 +154,7 @@ footer {
     width: 100%;
     font-size: 0.8rem;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 footer a {

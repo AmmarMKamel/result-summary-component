@@ -1,0 +1,18 @@
+main {
+    width: 736px;
+    display: flex;
+    box-shadow: hsl(225, 100%, 98%) 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+main section {
+    width: 50%;
+}
+
+#result {
+    border-radius: 20px;
+}
+
+#result p {
+    font-size: 1.25em;
+}
