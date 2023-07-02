@@ -22,7 +22,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Links
 
 - Solution URL: [GitHub Repo](https://github.com/AmmarMKamel/result-summary-component)
-- Live Site URL: [Result Summary Component](https://ammarmkamel.github.io/result-summary-component/)
+- Live Site URL: [Results Summary Component](https://ammarmkamel.github.io/result-summary-component/)
 
 ## Built with
 
